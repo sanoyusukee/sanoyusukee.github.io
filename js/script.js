@@ -1,6 +1,9 @@
 $( function()
 {
-	$( 'img.load' ).lazyload() ;
+  $( 'img.load' ).lazyload({
+    threshold: 200,
+    effect: "fadeIn",
+  }) ;
 } ) ;
 
 $(function(){
