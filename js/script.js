@@ -1,9 +1,10 @@
-// $(function() {
-//   $('img.lazy').lazyload({
-//     threshold: 200,
-//     effect: "fadeIn",
-//   });
-// });
+$(function() {
+  $('img.lazy').lazyload({
+    threshold: 200,
+    effect: "fadeIn",
+    effect_speed: 3000 ,
+  });
+});
 
 $(function(){
   var topBtn=$('#pageTop');
