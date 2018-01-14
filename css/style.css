@@ -44,8 +44,7 @@ header .top-contents .title h1 a {
 }
 
 header .top-contents .title h2 {
-  display: flex;
-  justify-content: space-between;
+/*   display: flex; */
   margin-top: 2px;
   font-size: 1.4rem;
   font-family: arial narrow, sans-serif;
