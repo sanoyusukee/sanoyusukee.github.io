@@ -1,15 +1,9 @@
-$( 'img.lazy' ).lazyload({
+$(function() {
+  $('.lazy').lazyload({
     threshold: 200,
     effect: "fadeIn",
-  }) ;
-
-// $( function()
-// {
-//   $( 'img.lazy' ).lazyload({
-//     threshold: 200,
-//     effect: "fadeIn",
-//   }) ;
-// } ) ;
+  });
+});
 
 $(function(){
   var topBtn=$('#pageTop');
