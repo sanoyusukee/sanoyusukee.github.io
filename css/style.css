@@ -14,7 +14,7 @@ header {
   padding: 124px 104px 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header {
     display: block;
     width: 100%;
@@ -32,7 +32,7 @@ header .top-contents .title h1 {
   letter-spacing: 0.22em;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header .top-contents .title h1 {
     font-size: 1.8rem;
   }
@@ -51,7 +51,7 @@ header .top-contents .title h2 {
   letter-spacing: 0.2em;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header .top-contents .title h2 {
     font-size: 1.1rem;
   }
@@ -64,7 +64,7 @@ header ul {
   font-size: 1.4rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header ul {
     display: none;
   }
@@ -74,7 +74,7 @@ header ul li + li {
   margin-left: 54px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header ul li + li {
     margin-left: 0;
   }
@@ -90,7 +90,7 @@ header .menu ul {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header .menu ul {
     display: table-cell;
   }
@@ -102,7 +102,7 @@ header .menu ul {
   padding: 124px 104px 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main-contents {
     width: 100%;
     margin-top: 60px;
@@ -119,7 +119,7 @@ header .menu ul {
   list-style: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main-contents li {
     width: 100%;
   }
@@ -131,7 +131,7 @@ header .menu ul {
   object-fit: cover;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main-contents li + li {
     margin-top: 10px;
   }
@@ -182,7 +182,7 @@ header .menu ul {
   font-family: arial narrow, sans-serif;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .contact {
     width: 100%;
     padding: 0 18px;
@@ -210,7 +210,7 @@ header .menu ul {
   background-color: #181818;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .menu-btn {
     display: inline-block;
     margin-left: auto;
@@ -313,7 +313,7 @@ footer {
   padding: 30px 104px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   footer {
     display: block;
     width: 100%;
