@@ -51,20 +51,10 @@ header .top-contents .title h2 {
   letter-spacing: 0.2em;
 }
 
-.justify {
-  display: flex;
-  justify-content: space-between;
-}
-
 @media (max-width: 768px) {
   header .top-contents .title h2 {
     font-size: 1.1rem;
   }
-  
-  .justify {
-  display: flex;
-  justify-content: space-between;
-}
 }
 
 header ul {
