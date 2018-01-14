@@ -1,3 +1,8 @@
+$( function()
+{
+	$( 'img.load' ).lazyload() ;
+} ) ;
+
 $(function(){
   var topBtn=$('#pageTop');
   topBtn.hide();
