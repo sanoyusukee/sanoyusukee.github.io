@@ -691,7 +691,8 @@
 
   var defaults = {
       container         : window, // window or jquery object or jquery selector, or element
-      imageSelector     : '.chocolat-image',
+//       imageSelector     : '.chocolat-image',
+          imageSelector     : '.chocolat-img',
       className         : '',
       imageSize         : 'default', // 'default', 'contain', 'cover' or 'native'
       initialZoomState  : null,
