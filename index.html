@@ -21,6 +21,7 @@
     <script type="text/javascript" src="js/lazyload.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/jquery.chocolat.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script>
       $(function() {
         $('img.lazy').lazyload({
@@ -35,6 +36,13 @@
           imageSize     : 'contain',
           overlayOpacity : 0.9
         });
+      });
+      $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: 200,
+        percentPosition: true,
+        horizontalOrder: true,
+        fitWidth: true
       });
     </script>
   </head>
@@ -63,153 +71,153 @@
       </div>
     </header>
     <div class="main-contents">
-      <ul class="chocolat-parent" data-chocolat-title="set title">
-        <li>
+      <ul class="chocolat-parent grid" data-chocolat-title="set title">
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート060.jpg">
             <img class="lazy" data-original="img/port/ポートレート060.jpg" src="img/port/ポートレート060.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート057.jpg">
             <img class="lazy" data-original="img/port/ポートレート057.jpg" src="img/port/ポートレート057.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
             <a class="chocolat-img" href="img/port/ポートレート058.jpg">
               <img class="lazy" data-original="img/port/ポートレート058.jpg" src="img/port/ポートレート058.jpg" alt="portrait">
             </a>
           </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/forest/forest005.jpg">
             <img class="lazy" data-original="img/forest/forest005.jpg" src="img/forest/forest005.jpg" alt="forest">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
+          <a class="chocolat-img" href="img/snap/snap043.jpg">
+            <img class="lazy" data-original="img/snap/snap043.jpg" src="img/snap/snap043.jpg" alt="snap">
+          </a>
+        </li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/forest/forest003.jpg">
             <img class="lazy" data-original="img/forest/forest003.jpg" src="img/forest/forest003.jpg" alt="forest">
           </a>
         </li>
-        <li>
-            <a class="chocolat-img" href="img/snap/snap043.jpg">
-              <img class="lazy" data-original="img/snap/snap043.jpg" src="img/snap/snap043.jpg" alt="snap">
-            </a>
-        </li>
-        <li>
+        <li class="grid-item">
             <a class="chocolat-img" href="img/snap/snap083.jpg">
               <img class="lazy" data-original="img/snap/snap083.jpg" src="img/snap/snap083.jpg" alt="snap">
             </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/snap/snap051.jpg">
             <img class="lazy" data-original="img/snap/snap051.jpg" src="img/snap/snap051.jpg" alt="snap">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート077.jpg">
             <img class="lazy" data-original="img/port/ポートレート077.jpg" src="img/port/ポートレート077.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/snap/snap082.jpg">
             <img class="lazy" data-original="img/snap/snap082.jpg" src="img/snap/snap082.jpg" alt="snap">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/forest/forest004.jpg">
             <img class="lazy" data-original="img/forest/forest004.jpg" src="img/forest/forest004.jpg" alt="forest">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
             <a class="chocolat-img" href="img/port/ポートレート069.jpg">
               <img class="lazy" data-original="img/port/ポートレート069.jpg" src="img/port/ポートレート069.jpg" alt="portrait">
             </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/forest/forest010.jpg">
             <img class="lazy" data-original="img/forest/forest010.jpg" src="img/forest/forest010.jpg" alt="forest">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート061.jpg">
             <img class="lazy" data-original="img/port/ポートレート061.jpg" src="img/port/ポートレート061.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート063.jpg">
             <img class="lazy" data-original="img/port/ポートレート063.jpg" src="img/port/ポートレート063.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート062.jpg">
             <img class="lazy" data-original="img/port/ポートレート062.jpg" src="img/port/ポートレート062.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート059.jpg">
             <img class="lazy" data-original="img/port/ポートレート059.jpg" src="img/port/ポートレート059.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート079.jpg">
             <img class="lazy" data-original="img/port/ポートレート079.jpg" src="img/port/ポートレート079.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート073.jpg">
             <img class="lazy" data-original="img/port/ポートレート073.jpg" src="img/port/ポートレート073.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート065.jpg">
             <img class="lazy" data-original="img/port/ポートレート065.jpg" src="img/port/ポートレート065.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート078.jpg">
             <img class="lazy" data-original="img/port/ポートレート078.jpg" src="img/port/ポートレート078.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート072.jpg">
             <img class="lazy" data-original="img/port/ポートレート072.jpg" src="img/port/ポートレート072.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/port/ポートレート075.jpg">
             <img class="lazy" data-original="img/port/ポートレート075.jpg" src="img/port/ポートレート075.jpg" alt="portrait">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/snap/snap088.jpg">
             <img class="lazy" data-original="img/snap/snap088.jpg" src="img/snap/snap088.jpg" alt="snap">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/snap/snap096.jpg">
             <img class="lazy" data-original="img/snap/snap096.jpg" src="img/snap/snap096.jpg" alt="snap">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/snap/snap086.jpg">
             <img class="lazy" data-original="img/snap/snap086.jpg" src="img/snap/snap086.jpg" alt="snap">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/snap/snap101.jpg">
             <img class="lazy" data-original="img/snap/snap101.jpg" src="img/snap/snap101.jpg" alt="snap">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/snap/snap104.jpg">
             <img class="lazy" data-original="img/snap/snap104.jpg" src="img/snap/snap104.jpg" alt="snap">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/forest/forest011.jpg">
             <img class="lazy" data-original="img/forest/forest011.jpg" src="img/forest/forest011.jpg" alt="forest">
           </a>
         </li>
-        <li>
+        <li class="grid-item">
           <a class="chocolat-img" href="img/forest/forest013.jpg">
             <img class="lazy" data-original="img/forest/forest013.jpg" src="img/forest/forest013.jpg" alt="forest">
           </a>
